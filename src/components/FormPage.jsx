@@ -1,12 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import CustomForm from "./CustomForm";
 
 const FormPage = () => {
   return (
     <StyledFormContainer>
       <header>UIDesignDaily</header>
       <h1>Upload Files</h1>
-      <section></section>
+      <section>
+        <CustomForm />
+      </section>
     </StyledFormContainer>
   );
 };
